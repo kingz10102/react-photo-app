@@ -1,0 +1,15 @@
+*{
+  margin:0;
+}
+.top_heading {
+  /* this keeps title intact, does not change form with adjustment of browser */
+  object-fit: contain;
+  background-color: azure;
+  padding: 25px;
+  border-bottom: 1px solid lightpink;
+}
+
+.App{
+  background-color: aliceblue;
+  height: 100vh;
+}
