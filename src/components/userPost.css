@@ -1,0 +1,30 @@
+.post {
+    max-width: 500px;    /*to keep images post at a limited size while adjusting of browser*/
+    border: 2px solid rgb(131, 89, 59);
+    background-color: rgb(114, 90, 80);
+    margin-bottom: 45px;  /*spacing between post (gap)*/
+    
+}
+
+.userpost__heading {
+    display: flex;     /**entire header on a row my default*/
+    padding: 15px;
+    align-items: center;
+}
+.userpost__image{
+    width:100%;
+    object-fit:contain;
+    border-bottom: 2px solid rgb(131, 89, 59);
+    border-top: 2px solid rgb(131, 89, 59);
+}
+
+
+.userpost_text {
+    font-weight: normal;
+    padding: 15px;;
+
+}
+
+.userpost_avatar {       /**/
+    margin-right: 15px;    /**/
+}
