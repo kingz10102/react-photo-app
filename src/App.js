@@ -50,6 +50,8 @@ function App() {
       })));   
     })
   }, []);
+
+  
   
 
 
@@ -70,11 +72,22 @@ function App() {
             src="https://images.alphacoders.com/606/thumb-1920-606210.jpg"
             alt="page logo"
             />
-            <input>
+            <input
             type='text'
             placeholder='username'
             value={username}
-            onChange={(e)=> set}</input>
+            onChange={(event)=> setUsername(event.target.value)}/>
+            <input
+            type='text'
+            placeholder='email'
+            value={email}
+            onChange={(event)=> setEmail(event.target.value)}/>
+            <input
+            type='password'
+            placeholder='password'
+            value={password}
+            onChange={(event)=> setPasswaord(event.target.value)}/>
+            
         </center>
        </div>
         </Modal>
