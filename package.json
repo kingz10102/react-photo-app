@@ -9,8 +9,11 @@
     "@testing-library/user-event": "^7.2.1",
     "bem": "^2.0.0",
     "firebase": "^7.16.1",
+    "material-css": "^0.7.0",
+    "materialize-css": "^1.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-instagram-embed": "^1.5.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {

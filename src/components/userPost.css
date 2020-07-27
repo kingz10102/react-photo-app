@@ -1,8 +1,9 @@
 .post {
     max-width: 500px;    /*to keep images post at a limited size while adjusting of browser*/
-    border: 2px solid rgb(131, 89, 59);
-    background-color: rgb(114, 90, 80);
+    border: 2px solid rgb(224, 137, 70);
+    background-color: rgb(240, 236, 229);
     margin-bottom: 45px;  /*spacing between post (gap)*/
+    border-radius: 10px;
     
 }
 
@@ -16,15 +17,33 @@
     object-fit:contain;
     border-bottom: 2px solid rgb(131, 89, 59);
     border-top: 2px solid rgb(131, 89, 59);
+    border-radius: 100px;
 }
 
 
-.userpost_text {
+.userpost__text {
     font-weight: normal;
-    padding: 15px;;
+    padding:15px;;
 
 }
 
-.userpost_avatar {       /**/
+.userpost__avatar {       /**/
     margin-right: 15px;    /**/
+}
+.comment__sectionBox{
+    display: flex;
+    margin-top: 10px;
+}
+.input__post{
+    flex:1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+.btn__post {
+    flex: 0;
+    border: none;
+    color: #df6d0f;
+    border-top: 1px solid lightgray;
+    cursor: pointer;
 }
